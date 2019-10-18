@@ -1,0 +1,22 @@
+/*
+====================================
+====================================
+====================================
+====    Functions DOCUMENT    ======
+====================================
+====================================
+====================================
+*/
+
+
+
+*****************************************
+elZero used this syntax in an example to use var in string for function parameters
+'where cat_id = {$_GET['pageid']}'
+*****************************************
+function ultimateGetAll(
+	$field,
+	$table,
+	$orderField,
+	$where = NULL,
+	$ordering = "DESC")

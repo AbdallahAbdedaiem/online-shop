@@ -1,0 +1,205 @@
+/*start main rules*/
+body{
+	height: 4000px;
+	background-color: #f6f6f6;
+	font-size: 16.5px;}
+.my-toast.error,.my-toast.success{
+	background-color:white;
+	vertical-align: center;
+	height:50px;
+	line-height: 50px;
+	text-align: left;
+	text-indent: 15px;
+	font-size:20px;
+	margin:auto;
+	max-width:500px;}
+.create-ad .my-toast.error,.create-ad .my-toast.success{
+	margin:0;
+}
+.my-toast.error{
+	border-left:5px solid red;}
+.my-toast.success{
+	border-left:5px solid green;}
+h1{
+	font-size:55px;
+	color:#666;}
+.asterisk{
+	color: red;
+	font-size: 25px;
+	position: absolute;
+	top:2px;
+	right:15px;}
+.add-el{
+	margin-bottom: 15px}
+.add-el i{
+	margin-right: 5px;}
+.abd-btn-xs{
+	padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;}
+/*override select box it style*/
+.selectboxit-container{width: 100%;}
+.selectboxit-btn{
+	background-color: white;
+	background-image: none;}
+.selectboxit-container .selectboxit{
+	width: 100%}
+.selectboxit-container span, .selectboxit-container .selectboxit-options a{line-height: 30px}
+
+/*end main rules*/
+
+
+/*start Bootstrap Edits*/
+.navbar{
+	padding-top:0;
+	padding-bottom: 0}
+.navbar-nav li a,a.navbar-brand{padding: 12px}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	background-color: #0984e3}
+.dropdown-menu{
+	background-color: #0984e3;
+	border-radius: 0;
+	box-shadow: 2px 2px rgba(20,20,20,0.1);
+	padding: 0;}
+.dropdown-menu a{color: white;}
+/*end Bootstrap Edits*/
+
+/*start header*/
+.upper-bar{
+	padding: 2px;
+	background-color: white}
+.upper-bar .btn-group{float: right}
+.upper-bar a,.upper-bar button{
+	background-color: transparent;
+	color:black;
+	border:none;}
+
+/*end header*/
+
+/*start login form*/
+.auth-page  form{
+	max-width: 500px !important;
+	margin: 50px auto;}
+.auth-page  form.signup{display: none}
+.auth-page h1 span{
+	color:#ccc;
+	cursor: pointer;}
+.auth-page .signup.active{
+	color: #6ab04c}
+.auth-page .login.active{
+	color: #0097e6;}
+.input-container{
+	margin-bottom: 15px;
+	position: relative;}
+.signup button[type='submit'],.login button[type='submit']{
+	margin-top: 25px !important;
+	max-width: 200px !important}
+/*end login form*/
+
+/*start categories page*/
+.item-box{position: relative;}
+.item-box p{
+	height: 44px;
+	max-height: 44px;
+	margin-bottom: 30px
+}
+.item-box .price-tag{
+	font-weight:bold;
+	line-height:25px;
+	right:0px;
+	top:5px;
+	width:70px;
+	height:30px;
+	position: absolute;
+	background-color: #f6e58d;}
+.item-box .approve-span{
+	padding: 2px;
+	font-size: 16px;
+	font-weight:bold;
+	line-height:25px;
+	left:0px;
+	bottom: 0;
+	height:30px;
+	position: absolute;
+	background-color: #e88;}
+.category .item-box .date{
+	float: right;
+	color: #aaa
+}
+/*end categories page*/
+
+/*start profile page*/
+.block{margin: 20px 0;}
+.infos .info ul{
+	padding: 0;
+	margin: 0}
+.infos .info ul li{padding: 10px;}
+.infos .info ul li:nth-child(odd){
+	background-color: #eee}
+.infos .info ul li span{
+	display: inline-block;
+	width: 150px;}
+.infos .ads .date{
+	text-align: right;
+	font-size: 13px;
+	color: #e0f;
+	font-weight: bold}
+/*end profile page*/
+
+/*start add item page*/
+.add-item .asterisk{right: 30px;}
+/*end add item page*/
+
+/*start show item page*/
+.item-info p{padding: 10px}
+.item-info ul li{
+	padding: 10px}
+.item-info ul li:nth-child(odd){background-color: #eee;}
+.item-info ul li span:first-of-type{
+	display: inline-block;
+	width:120px;}
+.item-info ul li i{margin-right:15px;}
+.item-info ul li a{
+	color:#000;}
+.item-info .item-tags a{
+	background-color:#655661;
+	text-decoration: none;
+	color:white;
+	font-size: 16px;
+	border-radius: 3px;
+	padding:3px 5px;
+}
+.item-info .item-tags a:hover{background-color: #000}
+.add-comment h3{margin: 0 0 10px}
+.add-comment textarea{
+	display: block;
+	margin-bottom: 10px;
+	width:400px;
+	height:	100px;}
+.comment-box{margin-bottom: 15px}
+.comment-box img{max-width: 100px;}
+.comment-box .lead{
+	margin-top: 15px;
+	background-color: white;
+	padding: 10px;
+	position: relative;
+	border-radius: 5px;
+	border:1px solid black;
+}
+.comment-box .lead:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent white  transparent transparent;
+	position: absolute;
+	left: -30px;
+	top: 8px;
+}
+.custom-hr:last-of-type{display:none}
+/*end show item page*/
+
+/*project framework*/
+.custom-hr{border-top:1px solid #615613;}

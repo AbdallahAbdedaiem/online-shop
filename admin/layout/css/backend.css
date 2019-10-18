@@ -1,0 +1,303 @@
+/*start main rules*/
+body{
+	height: 4000px;
+	padding-top:60px;
+	background-color: #f6f6f6;
+	font-size: 16.5px;
+}
+.asterisk{
+	color: red;
+	font-size: 25px;
+	position: absolute;
+	top:2px;
+	right:25px;
+}
+.add-el{
+	margin-bottom: 15px
+}
+.add-el i{
+	margin-right: 5px;
+}
+.abd-btn-xs{
+	padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/*override select box it style*/
+.selectboxit-container{
+	width: 100%;
+
+}
+.selectboxit-btn{
+	background-color: white;
+	background-image: none;
+}
+.selectboxit-container .selectboxit{
+	width: 100%}
+.selectboxit-container span, .selectboxit-container .selectboxit-options a{line-height: 30px}
+
+/*end main rules*/
+
+/*start login form*/
+.login{
+	width: 300px;
+	margin: 100px auto;}
+.login h4{color:#888;}
+.login input{margin-bottom: 10px;}
+.login .form-control{background-color: #e5e5e5}
+/*end login form*/
+
+/*start Bootstrap Edits*/
+/*abd:
+*note that em takes from page initial font-size for exp set in the body
+*/
+.navbar{
+	padding-top:0;
+	padding-bottom: 0}
+.navbar-nav li a,a.navbar-brand{padding: 12px}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	background-color: #0984e3
+}
+.dropdown-menu{
+	background-color: #0984e3;
+	border-radius: 0;
+	box-shadow: 2px 2px rgba(20,20,20,0.1);
+	padding: 0;}
+.dropdown-menu a{color: white;}
+.form-control{position: relative;}
+/*end Bootstrap Edits*/
+
+/*start dashboard page*/
+.home-stats h1{
+	margin-bottom: 60px;
+	margin-top: 50px}
+.home-stats .stat{
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 20px;
+	font-size: 15px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.home-stats i{font-size: 70px}
+.home-stats i{
+	font-size:70px;
+	top:30px;
+	left:20px;
+	position: absolute;}
+.home-stats .stat .info{float: right}
+.home-stats .stat a{color:white;}
+.home-stats .stat a:hover{text-decoration: none}
+.home-stats .stat span{
+	display: block;
+	font-size: 60px}
+.home-stats .st-members{background-color: #3498db}
+.home-stats .st-pending{background-color: #c0392b}
+.home-stats .st-items{background-color: #d35400}
+.home-stats .st-comments{background-color: #8e44ad}
+
+.latest{
+	margin-top: 30px;
+	margin-bottom: 30px}
+.latest .card{background-color: transparent;}
+.latest .card-title{
+	padding: 8px;
+	background-color:#eee;}
+.latest .card-title i:first-of-type{
+	margin-right:15px;
+	margin-right:3px;
+	color:lightcoral;}
+.latest .card-title i:last-of-type{
+	cursor:pointer;
+}
+.latest .card-title i:last-of-type:hover{
+	color:#555;
+}
+.latest .card-body{
+	padding:0;
+	background-color: white}
+.latest .latest-users{margin-bottom: 0}
+.latest .latest-users li{
+	padding: 10px 20px;
+	overflow: hidden;
+}
+.latest .latest-users li:nth-child(odd){
+	background-color: #eee;
+}
+.latest .latest-users li:nth-child(even) p{
+	background-color: #eee
+}
+.latest .latest-users li:nth-child(odd) p{background-color: white}
+.latest .latest-users .btn{padding: 2px 5px;
+margin-right:2px;}
+.latest .comm-box{margin: 5px 0 10px}
+.latest .comments li{
+	padding-right:10px;}
+.latest .comm-box b{
+	float: left;
+	width:80px;
+	margin-right:10px;
+}
+.latest .comm-box p:before{
+	content:"";
+	display: block;
+	position: absolute;
+	left: -15px ;
+	top: 5px;
+	width:0px;
+	height:0px;
+	border-style: solid;
+	border-color:
+	transparent transparent transparent #f55;
+	border-width: 10px
+}
+.latest .comm-box p{
+	border-radius: 5px;
+	padding: 3px 10px 10px;
+	position: relative;
+	float: left;
+	width: calc(100% - 90px);
+}
+.latest .no-records{
+	padding: 15px 5px;
+	background-color: #444;
+	color:white;
+	margin-bottom:0;
+}
+/*end dashboard page*/
+
+/*start members page*/
+h1{
+	font-size:55px;
+	color:#666;}
+.show-pass{
+	position: absolute;
+	top: 3px;
+	right:-25px;}
+.manage-members img{
+	width:60px;
+	height:60px;
+	padding:2px;
+	border:1px solid black;
+}
+.main-table{
+	-webkit-box-shadow: 0 3px 10px #ccc;
+	-moz-box-shadow: 0 3px 10px #ccc;
+	box-shadow: 0 3px 10px #ccc;}
+.main-table td{
+	background-color: white;
+	vertical-align: middle;}
+.main-table tr:first-child td {
+	/*abd: u can use thead*/
+	background-color: #333;
+	color: #fff;
+	text-align:center;}
+.main-table .btn{padding: 3px 10px;}
+.main-table .activate{margin-left:5px;}
+.main-table i{margin-right:5px;}
+/*end members page*/
+
+
+/*start category page*/
+.categories .card-title{margin-bottom: 0;border-bottom: 1px solid black}
+.categories .card-title{
+	padding: 8px;
+	background-color:#eee;}
+.categories .card-title i{
+	color:lightcoral;
+	margin-right: 5px
+}
+.categories .card-title{color: #16a085}
+.categories .card-title i:last-of-type{margin-left:8px;}
+.categories .card-title h4 > i:first-of-type{
+	margin-right:10px;
+}
+.categories .card-body{padding: 0}
+.categories hr{
+	margin-top:10px;
+	margin-bottom: 10px
+}
+.categories .cat{
+	overflow: hidden;
+	padding:15px;
+	position: relative;}
+.categories .cat:hover{background-color: #eee}
+.categories .cat:hover .hidden-btns{right:10px;}
+.categories .cat .hidden-btns{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	top:10px;
+	right:-130px
+}
+.categories .cat .hidden-btns .btn{margin-left: 5px}
+.categories .cat:last-of-type ~ hr{
+	/*hide next hr to the last category*/
+	display: none;
+}
+.categories hr{
+	background-color:lightblue;
+	margin-top:0;
+	margin-bottom: 0
+}
+.categories .cat h5{
+	cursor: pointer;
+	margin: 0;
+}
+.categories .cat .full-view p{margin:10px 0 10px;}
+.categories .cat .full-view a:last-child{
+	color:red;
+	opacity: 0.5;
+	text-decoration: none}
+.categories .cat .full-view a:last-child:hover{opacity: 1;}
+.categories .cat span{
+	color:white;
+	padding:3px 5px;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+.categories .cat .vis{
+	background-color:#eb2f06;}
+.categories .cat .comm{
+	background-color:#c0392b;}
+.categories .cat .ads{
+	background-color: #F44336
+}
+.categories .cat h6{color:lightcoral;}
+.categories .cat ul li:before{
+	content:'- ';
+}
+.categories .options{
+	font-weight: normal;
+	font-size: 18px}
+.categories .options a{
+	color: #888;
+	text-decoration: none;
+}
+.categories .options span{
+	color: #888;
+	cursor: pointer;
+}
+.categories .options span.active{
+	color: #0c2461;
+	border-bottom: 1px solid black
+}
+.categories .options a.active{
+	color: #0c2461;
+	border-bottom: 1px solid black
+}
+.categories .options a:hover{
+	color: #888;
+	text-decoration: none;}
+.categories .cat hr{
+	margin-top: 3px;
+	float: left;
+	height:1px;
+	width:40px;
+	background-color: lightgreen}
+
+/*end category page*/
